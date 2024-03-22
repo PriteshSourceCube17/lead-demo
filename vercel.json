@@ -1,5 +1,5 @@
 {
   "version" : 2,
-  "build":[{"server.js","use":"@vercel/node"}],
+  "builds":[{"server.js","use":"@vercel/node"}],
   "routes":[{"/(.*)","dest":"/"}]
 }
